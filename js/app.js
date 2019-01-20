@@ -9,8 +9,8 @@
                 templateUrl: 'templates/home.html'
             })
             .otherwise({
-                redirect: '/home'
+                redirectTo: '/home'
             });
-            $locationProvider.html5Mode(true)
+            $locationProvider.html5Mode(true);
     }
 })();
